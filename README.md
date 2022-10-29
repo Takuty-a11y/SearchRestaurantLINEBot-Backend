@@ -1,24 +1,51 @@
-# README
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/89084713/198834963-c79609f4-728a-4f62-b2b5-763f4abd5570.png" alt="Icon">
+</div>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Search Restaurant LINE Bot
 
-Things you may want to cover:
+LINE メッセージまたは位置情報からホットペッパーで検索した飲食店の上位 10
+件を表示します。<br>
+詳細検索画面からジャンル/エリア/価格帯で検索することもできます。
 
-* Ruby version
+[こちらから友達追加できます](https://lin.ee/pISheJz)
 
-* System dependencies
+## Get Started
 
-* Configuration
+1. Clone repository
 
-* Database creation
+```bash
+$ git clone https://github.com/Takuty-a11y/SearchRestaurantLINEBot-Backend.git
+```
 
-* Database initialization
+2. Move directory
 
-* How to run the test suite
+```bash
+$ cd SearchRestaurantLINEBot-Backend
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+3. Dockerimage build
 
-* Deployment instructions
+```bash
+$ docker-compose build
+```
 
-* ...
+4. Container up
+
+```bash
+$ docker-compose up -d
+```
+
+## Usage
+
+[こちらに記事にしています](https://zenn.dev/takuty)
+
+## Requirement
+
+- Ruby@3.1.2
+- Ruby on Rails@7.0.4
+- Postsql@1.1
+- puma@5.0
+- rack-cors
+- line-bot-api
+- httpclient
