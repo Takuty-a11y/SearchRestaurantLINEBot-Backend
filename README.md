@@ -38,7 +38,7 @@ $ docker-compose up -d
 
 ## Usage
 
-[こちらに記事にしています](https://zenn.dev/takuty)
+[こちらに記事にしています](https://zenn.dev/takuty/articles/4059831fdb7c6d)
 
 ## Requirement
 
