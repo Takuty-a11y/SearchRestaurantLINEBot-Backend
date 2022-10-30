@@ -49,3 +49,7 @@ $ docker-compose up -d
 - rack-cors
 - line-bot-api
 - httpclient
+
+## License
+
+This software is released under the MIT License, see LICENSE.txt.
